@@ -1,0 +1,30 @@
+.box, .footer {
+  border: 1px solid #aaa;
+  border-radius: 18px;
+  background: blue;
+  font-size: 20px;
+}
+
+.box a, .footer a {
+  font-weight: 800;
+  font-size: 18px;
+  margin-left: 0;
+}
+
+.box, .footer {
+  width: 600px;
+  height: 200px;
+  background: red;
+}
+
+.box a, .footer a {
+  color: blue;
+}
+
+.footer {
+  border: 1px solid #999;
+}
+
+p {
+  font: 12px/30px;
+}

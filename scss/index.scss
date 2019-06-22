@@ -1,0 +1,25 @@
+@import "mixin";
+.box{
+  border:1px solid #aaa;
+  @include rounded-box;
+}
+$a:200px;
+.box{
+  width:$a+200*2;
+  height:200px;
+  background:red;
+  a{
+    color:blue
+  }
+}
+.footer{
+  @extend .box;
+  border:1px solid #999;
+}
+
+p {
+  $font-size: 12px;
+  $line-height: 30px;
+  font: #{$font-size}/#{$line-height};
+}
+

@@ -1,0 +1,29 @@
+@mixin rounded-box($a:18px,$b:20px,$c:$a){
+  border-radius: $a;
+  background: blue;
+  font-size: $b;
+  a{
+    font-weight: 800;
+    font-size: $c;
+    margin-left: 0;
+  }
+}
+
+@mixin center{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@mixin backImg{
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
